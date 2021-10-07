@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin-bottom: 4em;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 2em;
+    box-shadow: 0 0.25em 0.2em rgba(0, 0, 0, 0.1);
+    height: 3.5em;
+}
+
+nav ul {
+    margin: 0;
+    display: flex;
+    gap: 3.5em;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav li {
+    width: 5em;
+    list-style-type: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+.navHighlight {
+    background-color: #10cef9;
+    padding: 0;
+}
+
+.About-Me {
+    margin-top: 2.5em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.About-Me p {
+    width: 45%;
+}
+
+.Contact h1 {
+    margin-left: 1em;
+}
+
+.Contact form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 2em;
+}
+
+.Contact form > * {
+    margin-bottom: 0.5em;
+}
+
+.Contact form input {
+    height: 2em;
+}
+
+.Contact textarea {
+    resize: vertical;
+}
+
+.Resume h1 {
+    margin-left: 1em;
+}
+
+.Resume a {
+    margin-left: 2em;
+}
+
+.Projects h1 {
+    margin-left: 1em;
+}
+
+.Projects ul {
+    list-style: none;
+}
+
+.Projects li {
+    display: flex;
+    flex-direction: column;
+}
+
+.Projects li:nth-child(2n) {
+    background-color: rgb(223, 223, 223);
+}
+
+.Projects li h2 {
+    margin-top: 0;
+}
+
+.Projects li a {
+    text-decoration: none;
+    color: black;
+    margin-bottom: 0.5em;
+}
+
+.Projects li a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    height: 3em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 -0.25em 0.2em rgba(0, 0, 0, 0.1);
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
